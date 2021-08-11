@@ -1,8 +1,14 @@
-## Datos libres para cartografía
+# Datos libres para cartografía
 
 ### Curso virtual y abierto
 
 Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ingeniería, Universidad de Buenos Aires
+
+## ¡Está Abierta la inscripción!
+
+Ya está disponible la inscripción, [entrá en este link](/inscripcion).
+Para comunicarse con nosotros podés escribir a [geoduba@fi.uba.ar](mailto:geoduba@fi.uba.ar) o
+seguirnos en instagram: [@cartodatos.fiuba](https://instagram.com/cartodatos.fiuba)
 
 ### #1: objetivos de aprendizaje
 
