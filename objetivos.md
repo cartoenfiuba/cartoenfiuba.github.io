@@ -28,7 +28,7 @@ a ir surgiendo a lo largo del desarrollo.
 
 Les dejamos también el temario tentativo del curso.
 
-Para mantenerse al tanto, los esperamos en [instagram](instagram.com/cartodatos.fiuba)
+Para mantenerse al tanto, los esperamos en [instagram](https://instagram.com/cartodatos.fiuba)
 
 ## Temario tentativo
 
