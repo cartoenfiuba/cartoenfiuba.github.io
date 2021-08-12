@@ -7,4 +7,4 @@ se demoren en llenar sus datos.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeEu5loP-iU6chfbhq99PViFZ7XZ5DwioXi1SgmJ0BwmTpfEQ/viewform?embedded=true" width="640" height="4118" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
 
-# ¡¡Gacias!!
+# ¡¡Gracias!!
