@@ -7,7 +7,7 @@ los links correspondientes estarán cada día en esta sección. Si quieren suscr
 al canal para que les lleguen notificaciones con el link de cada sesión, utilizaremos
 el canal de la cuenta institucional de fi.uba de Javier Clavijo:
 
-https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg
+[https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg](https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg)
 
 Además, se habilitará como back-up un link de stream de google meet, por caso de
 que algo falle en la transmisión de youtube.
