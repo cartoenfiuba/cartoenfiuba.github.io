@@ -4,6 +4,16 @@
 
 Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ingeniería, Universidad de Buenos Aires
 
+## Ya se acerca el curso
+
+Para ir preparandose al curso, [subimos algo de material](/preparacion) que puede serles de
+interés para ir entrando en tema para el curso.
+
+Además, [en esta sección](/streaming), dejamos los datos de cómo será la mecánica del curso,
+y ahí mismo iremos actualizando los links para cada día.
+
+Toda esta información la recibiran los inscriptos también por mail a la brevedad.
+
 ## ¡Está Abierta la inscripción!
 
 Ya está disponible la inscripción, [entrá en este link](/inscripcion).
@@ -30,7 +40,5 @@ rumbo final a la interacción que aparezca cuando estemos todos juntos metidos e
 
 Sigan atentos, ya vamos a ir agregando más info, y a medida que tengamos tiempo también
 algún material preliminar para ir entrando en confianza con la temática que queremos plantear.
-
-### Muy pronto mas información.
 
 ![Flyer](/Flyer_curso.png)

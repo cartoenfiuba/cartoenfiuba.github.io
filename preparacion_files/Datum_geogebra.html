@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2020-05-26 mar 19:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>FIUBA 70.15 Tutorial geométrico datum</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+#table-of-contents {visibility: collapse; height: 0px}
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2019 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org38b49a7">1. Construir geometria de un datum en GEOGEBRA</a>
+<ul>
+<li><a href="#orge034f54">1.1. Construcción geométrica</a></li>
+<li><a href="#org26e7348">1.2. Agregar la vista 2d para visualizar el resultado cartográfico.</a></li>
+<li><a href="#org9e3bd1c">1.3. Ejercicio Extra.</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id='capsula' style='max-width:800px; background:#f0f0f0; border: dashed 1px gray; padding: 20px; margin:20px'>
+<div id="outline-container-org38b49a7" class="outline-2">
+<h2 id="org38b49a7"><span class="section-number-2">1</span> Construir geometria de un datum en GEOGEBRA</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Para El siguiente Trabajo Utilizaremos el software Geogebra. Este 
+software nos sirve para realizar construcciones geométricas a partir de
+ordenes intuitivas.
+</p>
+
+<p>
+El link para el software está en la sección de software del campus.
+</p>
+
+<p>
+Los comandos para ralizar construcciones se ingresan por el campo de
+"Entrada". Comienze por hacer alguna prueba, por ejemplo ingrese
+Punto({0,0,0}) o pruebe los comandos de Recta, Vector, Ángulo, etc
+para familiarizarse con la interfaz.
+</p>
+
+<p>
+Para realizar este tutorial utilizaremos la Vista 3d (Bajo el Menu Vista)
+</p>
+
+<p>
+Construiremos un datum de referencia y uno auxiliar y veremos qué es lo 
+que cambia al representar un punto en uno u otro datum. 
+</p>
+
+<p>
+Nuestro sistema Absoluto es el cartesiano canónico, con origen en 
+{0,0,0} y una terna de ejes X, Y, Z.
+</p>
+
+<p>
+Las ordenes que deben ejecutarse en Geogebra se Representan en un
+cuadro con fuente monosepaciada
+</p>
+
+<pre class="example">
+Como este ejemplo.
+</pre>
+</div>
+
+<div id="outline-container-orge034f54" class="outline-3">
+<h3 id="orge034f54"><span class="section-number-3">1.1</span> Construcción geométrica</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Inicialmente Definimos nuestra Tierra de "Referenia", centrada en el 
+origen y representada como un elipsoide exageradamente achatado.
+Hallaremos sobre ella la latitud y longitud de un punto que esté en su
+Superficie.
+</p>
+
+<pre class="example">
+Tierra: 0.5 x^2+ 0.5 y^2 + z^2 = 1
+</pre>
+
+<p>
+Ponemos Un punto que nos servira de referencia. Nótese que se
+puede mover el punto como querramos con el mouse.
+</p>
+
+<pre class="example">
+A: PuntoEn(Tierra)
+</pre>
+
+<p>
+Creamos el plano del meridiano del lugar. Definiendolo como el plano que
+pasa por el punto y contiene al eje Z.
+</p>
+
+<pre class="example">
+Meridiano: Plano(A, EjeZ)
+</pre>
+
+<p>
+Construimos la Curva que representa al meridiano sobre la superficie
+intersecando el plano y la tierra.
+</p>
+
+<pre class="example">
+CurvaMeridiano: IntersecaRecorridos(Tierra, Meridiano)
+</pre>
+
+<p>
+Para hallar La latitud debemos hallar la perpendicular al elipsoide, la
+construimos en dos pasos, primero hallamos la tangente sobre el plano
+meridiano y después la perpendicular
+</p>
+
+<pre class="example">
+Tan0: Tangente(A,CurvaMeridiano)
+Per0: Perpendicular(A, Tan0, Meridiano)
+</pre>
+
+<p>
+Finalmente, Hallamos la latitud y la longitud:
+</p>
+
+<pre class="example">
+O: Punto({0,0,0})
+</pre>
+
+<p>
+Es importante Remarcar que La latitud se mide con respecto al Plano
+del ecuador (Plano(EjeX,EjeY)), la longitud se mide sobre la proyección
+del punto en el plano del ecuador (representada como (x(A), y(A), 0) en
+este caso, por conicidir dicho plano con el plano XY)
+</p>
+
+<pre class="example">
+Lat: Ángulo(Per0,Plano(EjeX,EjeY)) * sgn(z(A))
+Lon: Ángulo(Vector(O, (x(A), y(A), 0)), VectorUnitario(EjeX)) * sgn(y(A))
+</pre>
+
+<p>
+Es indispensable el agregado de los signos porque los ángulos entre
+vectores siempre se miden como "el menor de los dos posibles".
+</p>
+
+<p>
+Pasaremos a construir ahora un nuevo datum, que podríamos interpretar
+como un sistema local materializado de alguna manera.
+</p>
+
+<p>
+Definimos la terna de referencia, el origen esta desplazado pero no hay 
+rotación.
+</p>
+
+<pre class="example">
+O1: Punto({0.2, 0.2, 0.2})
+X1: Recta(O1, EjeX)
+Y1: Recta(O1, EjeY)
+Z1: Recta(O1, EjeZ)
+</pre>
+
+<p>
+Definimos nuestro nuevo elipsoide de referencia, con medidas distintas.
+</p>
+
+<pre class="example">
+Datum1: 0.6(x - x(O1))^2 + 0.6(y - y(O1))^2 + (z - z(O1))^2 = 1
+</pre>
+
+<p>
+Ahora Creamos las mismas construcciones auxiliares que en el caso anterior.
+</p>
+
+<pre class="example">
+Ecuador1: Plano(X1, Y1)
+Meridiano1: Plano(A, Z1)
+CurvaMeridiano1: IntersecaRecorridos(Meridiano1, Datum1)
+</pre>
+
+<p>
+Para tomar la latitud y longitud primero debemos hallar el punto
+que corresponde a A sobre Datum1, que es su proyección perpendicular y 
+la hallamos con la función PuntoMásCercano.
+</p>
+
+<pre class="example">
+A1: PuntoMásCercano(CurvaMeridiano1, A)
+</pre>
+
+<p>
+Ahora si hallamos la Tangente y la perpendicular igual que en el caso 
+Anterior.
+</p>
+
+<pre class="example">
+T1: Tangente(A1, CurvaMeridiano1)
+P1: Perpendicular(A, T1, Meridiano1)
+</pre>
+
+<p>
+Auxiliarmente necesitamos la proyeccion sobre el eje Z1, para
+1- saber el signo de la latitud
+2- Proyectar el vector A al plano X1,Y1 para poder hallar la longitud.
+Esto lo logro con el producto Interno.
+</p>
+
+<pre class="example">
+PrAZ1: Vector(O1, A) * VectorUnitario(Z1)
+</pre>
+
+<pre class="example">
+Lat1: Ángulo(P1,Ecuador1) * sgn(PrAZ1)
+</pre>
+
+<p>
+La proyeccion sobre el plano X1 Z1 es A - Z1(unitario) * PrAZ1
+</p>
+
+<pre class="example">
+PrAX1Y1: Vector(O1,A) - (VectorUnitario(Z1) * PrAZ1)
+</pre>
+
+<p>
+Y para tener el signo de la longitud necesitamos la proyeccion de este
+sobre el eje Y1
+</p>
+
+<pre class="example">
+PrAY1: PrAX1Y1 * VectorUnitario(Y1)
+</pre>
+
+<p>
+Finalmente, hallamos la longitud.
+</p>
+
+<pre class="example">
+Lon1: Ángulo( PrAX1Y1, VectorUnitario(X1)) * sgn(y(A-O1))
+</pre>
+</div>
+</div>
+
+<div id="outline-container-org26e7348" class="outline-3">
+<h3 id="org26e7348"><span class="section-number-3">1.2</span> Agregar la vista 2d para visualizar el resultado cartográfico.</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+Hasta aqui hemos construido nuestra geometria tridimensional, podemos 
+hacer las pruebas que querramos modificando el punto O1 , moviendo A y 
+cambiandole los parámetros al elipsoide del Datum1.
+</p>
+
+<p>
+Lo que a nosotros nos afecta principalmente es el efecto que esto tiene
+al trasladarnos a las 2 Dimensiones de un mapa. Nos queda para esto
+adoptar un sistema de representación en R2.
+</p>
+
+<p>
+Lo mas gráfico y sencillo en este caso, para no agregar cuentas que 
+oscurezcan el desarrollo, es utilizar x=longitud e y=latitud como 
+sistema de representación, y observar el efecto sobre el plano.
+</p>
+
+<pre class="example">
+Aplano: Punto({Lon,Lat})
+A1plano: Punto({Lon1,Lat1})
+</pre>
+
+<p>
+Si mantenemos ahora prendida la vista 2d junto con la 3d, podremos ver
+como varian las coordenadas en ambos datum en la vista 2d al mover el 
+punto sobre la vista 3d. Lo mas importante para notar es que la relacion 
+entre ellos no se mantiene igual a lo largo de todo el espacio.
+</p>
+
+<p>
+Consejos: En la Interface de Geogebra puede ir apagando todos los
+objetos que le resulten molestos en la vista, nóte que algunas lineas
+y planos son auxiliares, y es mejor apagarlas una vez que se entendió
+su función.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org9e3bd1c" class="outline-3">
+<h3 id="org9e3bd1c"><span class="section-number-3">1.3</span> Ejercicio Extra.</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+Experimente como puede generar un datum rotado utilizando la
+funcion Rota( &lt;Objeto&gt;, &lt;Ángulo&gt; ) a la hora de crear la terna de ejes
+X1, Y1, Z1. Compruebe los efectos de esto sobre la construcción.
+</p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2020-05-26 mar 19:46</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
