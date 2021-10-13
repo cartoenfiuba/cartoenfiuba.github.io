@@ -1,5 +1,8 @@
 # Datos para seguir el curso
 
+### Importante: Fecha -> 18, 19, 20, 21 y 22 de Octubre
+### Importante: Horario -> de 14:00 a 18:30 hs
+
 ## Sesiones
 
 Las sesiones del curso se dictarán por streaming a través de la plataforma Youtube.com,
