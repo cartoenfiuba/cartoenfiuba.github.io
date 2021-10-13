@@ -4,6 +4,9 @@
 
 Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ingeniería, Universidad de Buenos Aires
 
+### Importante: Fecha -> 18, 19, 20, 21 y 22 de Octubre
+### Importante: Horario -> de 14:00 a 18:30 hs
+
 ## Ya se acerca el curso
 
 Para ir preparandose al curso, [subimos algo de material](/preparacion) que puede serles de
