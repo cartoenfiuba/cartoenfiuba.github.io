@@ -5,21 +5,36 @@
 Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ingeniería, Universidad de Buenos Aires
 
 ### Importante: Fecha -> 18, 19, 20, 21 y 22 de Octubre
+
 ### Importante: Horario -> de 14:00 a 18:30 hs
 
-## Ya se acerca el curso
+## ¡Hoy comienza el curso!
 
-Para ir preparandose al curso, [subimos algo de material](/preparacion) que puede serles de
+### Pueden encontrar la transmisión entrando al canal de youtube:
+
+[https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg](https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg)
+
+Si tienen algún problema con la transmisión, por favor escriban mail a
+[datoslibrescartografia@gmail.com](mailto:datoslibrescartografia@gmail.com) para que les enviemos el link a la transmisión
+de resguardo, que se realiza por google meet.
+
+## Material de la clase #1
+
+El material de la clase, como ejemplos y algunos links está disponible
+[en este link](/clase1)
+
+## Durante el curso
+
+[Subimos algo de material previo](/preparacion) que puede serles de
 interés para ir entrando en tema para el curso.
 
-Además, [en esta sección](/streaming), dejamos los datos de cómo será la mecánica del curso,
-y ahí mismo iremos actualizando los links para cada día.
+Además, [en esta sección](/streaming), dejamos los datos de cómo será la mecánica del curso.
 
 Toda esta información la recibiran los inscriptos también por mail a la brevedad.
 
-## ¡Está Abierta la inscripción!
+## ¡La inscripción sigue abierta!
 
-Ya está disponible la inscripción, [entrá en este link](/inscripcion).
+Sigue disponible la inscripción, [entrá en este link](/inscripcion).
 Para comunicarse con nosotros podés escribir a [geoduba@fi.uba.ar](mailto:geoduba@fi.uba.ar) o
 seguirnos en instagram: [@cartodatos.fiuba](https://instagram.com/cartodatos.fiuba)
 
