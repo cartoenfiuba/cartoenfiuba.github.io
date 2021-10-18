@@ -12,9 +12,7 @@ algunos videos con ejemplos realizados en Qgis.
 
 Además, los links de interés de la clase son:
 
-- [https://epsg.org](https://epsg.org)
-- [https://epsg.io](https://epsg.io), Ojo no es una página oficial de EPSG
-- [https://spatialreference.org](https://spatialreference.org)
+- [Definiciones de sistemas de coordenadas](zettel/20211017082428)
 - [Proj4 Transformation Pipelines.](zettel/20211007161847)
 - [Formatos de definición de proyección](zettel/20211017083200)
 - [Archivos Auxiliares de metadatos de proyección](zettel/20211007182700)
