@@ -18,6 +18,11 @@ Si tienen algún problema con la transmisión, por favor escriban mail a
 [datoslibrescartografia@gmail.com](mailto:datoslibrescartografia@gmail.com) para que les enviemos el link a la transmisión
 de resguardo, que se realiza por google meet.
 
+## Material de la clase #3
+
+El material de la clase, como ejemplos y algunos links está disponible
+[en este link](/clase3)
+
 ## Material de la clase #2
 
 El material de la clase, como ejemplos y algunos links está disponible
