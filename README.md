@@ -8,7 +8,7 @@ Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ing
 
 ### Importante: Horario -> de 14:00 a 18:30 hs
 
-## ¡Hoy es la segunda Clase!
+## ¡Hoy es la cuarta Clase!
 
 ### Pueden encontrar la transmisión entrando al canal de youtube:
 
@@ -17,6 +17,11 @@ Organiza el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de Ing
 Si tienen algún problema con la transmisión, por favor escriban mail a
 [datoslibrescartografia@gmail.com](mailto:datoslibrescartografia@gmail.com) para que les enviemos el link a la transmisión
 de resguardo, que se realiza por google meet.
+
+## Material de la clase #4
+
+El material de la clase, como ejemplos y algunos links está disponible
+[en este link](/clase4)
 
 ## Material de la clase #3
 
