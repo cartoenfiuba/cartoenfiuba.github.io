@@ -9,4 +9,14 @@ Los ejemplos para la clase 2 son los siguientes gist (que pueden abrirse en cola
 
 Y en [Esta carpeta de google drive](https://drive.google.com/drive/folders/1JopsRmquUVFXcqY4lVIkRFEns1L7rGj9?usp=sharing) los ejemplos presentados en Qgis
 
-Mas tarde agregaremos los links de interés de la clase.
+Links de interés de la clase.
+
+[Espacios de color](zettel/20211007192112)
+
+[Metadatos de imágenes](zettel/20211007185601)
+
+[Paletas de color ordenadas "perceptivamente"](zettel/20211007175404)
+
+[Archivos Auxiliares](zettel/20211007182700)
+
+[Links para modelos digitales](zettel/20211022045059)
