@@ -8,7 +8,9 @@ Organizó el Instituto de Geodésia y Geofísica aplicadas, de la Facultad de In
 
 ### El curso se desarrolló entre el 18 y 22 de Octubre en 5 clases transmitidas por youtube
 
-[https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg](https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg)
+[Link al canal de youtube](https://www.youtube.com/channel/UCceitjnjYWonpT1phuJWTzg)
+
+## [índice de los videos por temas](/indice)
 
 ## Material de la clase #1: [en este link](/clase1)
 
